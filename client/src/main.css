@@ -1,0 +1,42 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  background-color: #fcfcfc;
+  overflow-x: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin-bottom: 60px;
+}
+
+ul li {
+  display: block;
+  width: 100%;
+  padding: 0 10px;
+}
+
+ul li span:first-of-type {
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  font-size: 20px;
+  height: 45px;
+  background: #E4E4E4;
+  border: 0;
+  margin-top: 10px;
+  padding: 0 10px;
+  outline: 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+button {
+  display: none;
+}
